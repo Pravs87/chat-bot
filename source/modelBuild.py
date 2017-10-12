@@ -7,7 +7,6 @@ import numpy as np
 import tflearn
 import tensorflow as tf
 import random
-import pickle
 import os
 
 # import our chat-bot intents file
