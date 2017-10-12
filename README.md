@@ -32,8 +32,7 @@ The training data is a file which contains various intents which has the followi
 
 **`Note`**
 
-We have used a 2-layer neural network which will classify patterns into various classes. If we were to have a contextual based bot, as is the trend these days, this approach definitely wont work. We need to move towards a seq2seq learning using LSTM network. 
-
+We have used a 2-layer neural network which will classify patterns into various classes. The code to build the model was available on the internet. 
 **`Running the code`**
 
 _Pre-requisites_ :
@@ -72,4 +71,5 @@ After working on both dialogflow and creating own model my observations are the 
 2. dialogflow has many system generated entities which is tough for any new model to handle. Since the knowledge the library gained is on humongous data.
 3. dialogflow also has nice integrations with many social apps like FB, Twitter, Slack etc. which is very cool to use.
 
-Next steps is to explore a more context based modelling.
+If we were to have a contextual based bot, as is the trend these days, this approach definitely wont work. We need to move towards a seq2seq learning using LSTM network. 
+
