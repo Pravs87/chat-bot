@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "retrieveEmail",
+      "patterns": [
+        "retrieve all sent emails today",
+        "please retrieve email to Praveen from Nava from past 4 days",
+        "retrieve email to john from mary from 09/01 to 09/03",
+        "can you retrieve email from michael from 09/02 to 09/03",
+        "get all emails which were sent to Bob",
+        "fetch email",
+        "get email",
+        "retrieve email",
+        "email"
+
+      ],
+      "responses": [
+        "Sure. Retrieved emails will be sent to you shortly."
+      ]
+    },
+    {
+      "tag": "retrieveDocument",
+      "patterns": [
+        "get document project_status.txt from google drive",
+        "get documents from dropbox which were added yesterday",
+        "get log files from home directory",
+        "retrieve files from dropbox",
+        "fetch documents from mongodb",
+        "get documents",
+        "fetch documents",
+        "documents",
+        "files"
+      ],
+      "responses": [
+        "Thank you. I have forwarded your request to retrieve data from $DataSources"
+      ]
+    },
+    {
+      "tag": "call",
+      "patterns": [
+        "I want Michael on phone",
+        "Call Michael",
+        "Call Linda now",
+        "Can I get Michael on phone",
+        "Make a call to Bob",
+        "Can you place a call to Ram",
+        "connect me to Alice over phone",
+        "get me Praveen on phone",
+        "call",
+        "phone",
+        "connect"
+      ],
+      "responses": [
+        "placing call to the person",
+        "done. person is online"
+      ]
+    },
+    {
+      "tag": "scheduleMeeting",
+      "patterns": [
+        "schedule meeting with John at 4PM today",
+        "schedule meeting between Peter John Sam regarding project  at 09/06 3:00 pm",
+        "send a meeting invite to Bob",
+        "schedule a meeting invitation with Praveen today",
+        "schedule",
+        "meeting",
+        "invite",
+        "invitation"
+
+      ],
+      "responses": [
+        "meeting has been scheduled as per your request"
+      ]
+    },
+    {
+      "tag": "actionItem",
+      "patterns": [
+        "set a reminder for meeting",
+        "set reminder for checking code status",
+        "take an action item for on boarding",
+        "create a jira ticket to Bob",
+        "create a pull request",
+        "remind Ram about his interview schedule",
+        "create",
+        "remind",
+        "set"
+      ],
+      "responses": [
+        "Done! I have added it in the list of to-do",
+        "Your action item has been taken !"
+      ]
+    }
+  ]
+}
