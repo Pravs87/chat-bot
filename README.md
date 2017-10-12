@@ -62,3 +62,14 @@ Even though the page is public the bot is not public. So anyone who wants to acc
 If you want to try that, please let me know your facebook username so that I can add it to the list of developer or tester.
 
 The reason why bot can't be public is that - facebook can only make it public after we raise a request to them stating we have a bot. Then FB guys are going to test this bot before releasing public. Thats quite a tedious process for a test bot. So it is private for now.
+
+**Summary**
+
+After working on both dialogflow and creating own model my observations are the following:
+1. Advantage of building our own model gives control to us than using any library
+
+1. dialogflow is very user-friendly and easy to get started with basic chatbot like intent and entity detection
+2. dialogflow has many system generated entities which is tough for any new model to handle. Since the knowledge the library gained is on humongous data.
+3. dialogflow also has nice integrations with many social apps like FB, Twitter, Slack etc. which is very cool to use.
+
+Next steps is to explore a more context based modelling.
