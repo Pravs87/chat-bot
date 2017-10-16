@@ -32,7 +32,8 @@ The training data is a file which contains various intents which has the followi
 
 **`Note`**
 
-We have used a 2-layer neural network which will classify patterns into various classes. The code to build the model was available on the internet. 
+We have used a 2-layer neural network which will classify patterns into various classes. The code to build the NN model was available on the internet. 
+
 **`Running the code`**
 
 _Pre-requisites_ :
